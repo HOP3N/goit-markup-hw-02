@@ -1,21 +1,100 @@
+
+:root {
+    --main-text-color: #212121;
+    --sub-text-color: #ffffff;
+    --text-contact: #757575;
+}
+
 body {
     font-family: 'Raleway','Roboto' , sans-serif;
 }
-.list-header { 
-    /* 500 roboto */
+.list-header {
+
+} 
+    /* .list-item { 
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14px;
+        letter-spacing: 0.02em;
+        color: #212121;
+    } */
+
+.header.link {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+
 }
-.contact-link {
+
+.contact-mail, .contact-number {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+color: var(--text-contact);
 }
-.list {
+
+
+.btn-main {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    
+}
+
+
+/* +++hover+++ */
+
+/* .list {
 }
 .photo {
-}
+} */
 .title { 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2px;
+    letter-spacing: 0.06em;
+    color: var(--main-text-color);
     /* 700 roboto */
 }
 .sub-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88px;
+    letter-spacing: 0.03em;
+    color: var(--text-contact);
     /* 400 roboto */
 }
-.list-item {
-    
+.adress {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: var(--sub-text-color);
+}
+
+ .contact-mail-footer, .contact-number-footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: aquamarine
+
 }
