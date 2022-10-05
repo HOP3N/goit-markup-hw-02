@@ -7,10 +7,40 @@
 
 body {
     font-family: 'Raleway','Roboto' , sans-serif;
+    
 }
+
 .list-header {
 
 } 
+.logo-header {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+}
+
+.logo-header-blue {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo-header-black {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
     /* .list-item { 
         font-family: 'Roboto', sans-serif;
         font-style: normal;
@@ -41,6 +71,19 @@ letter-spacing: 0.02em;
 color: var(--text-contact);
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .btn-main {
     font-style: normal;
@@ -50,8 +93,12 @@ color: var(--text-contact);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-    
+    cursor: pointer;
+
 }
+
+button: :hover :focus ,{ background-color: #2196f3; }
+
 
 
 /* +++hover+++ */
@@ -78,6 +125,31 @@ color: var(--text-contact);
     color: var(--text-contact);
     /* 400 roboto */
 }
+
+.logo-footer {
+    background-color: #757575;
+}
+
+.logo-footer-blue {
+    font-family: 'Raleway' , sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+}
+
+.logo-footer-white {
+    font-family: 'Raleway' , sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+    color: var(--sub-text-color);
+}
+
 .adress {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
