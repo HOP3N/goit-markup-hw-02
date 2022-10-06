@@ -5,14 +5,9 @@
     --text-contact: #757575;
 }
 
-body {
+.body {
     font-family: 'Raleway','Roboto' , sans-serif;
-    
-}
-
-.list-header {
-
-} 
+    }
 .logo-header {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -41,15 +36,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
-    /* .list-item { 
-        font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14px;
-        letter-spacing: 0.02em;
-        color: #212121;
-    } */
 
 .header.link {
     font-family: 'Roboto', sans-serif;
@@ -94,19 +80,12 @@ color: var(--text-contact);
     letter-spacing: 0.03em;
     color: var(--main-text-color);
     cursor: pointer;
-
 }
 
-button: :hover :focus ,{ background-color: #2196f3; }
-
-
-
-/* +++hover+++ */
-
-/* .list {
+.btn-main:hover,:focus {
+    background-color: #2196f3;
 }
-.photo {
-} */
+
 .title { 
     font-style: normal;
     font-weight: 700;
@@ -114,7 +93,6 @@ button: :hover :focus ,{ background-color: #2196f3; }
     line-height: 2px;
     letter-spacing: 0.06em;
     color: var(--main-text-color);
-    /* 700 roboto */
 }
 .sub-title {
     font-style: normal;
@@ -123,7 +101,6 @@ button: :hover :focus ,{ background-color: #2196f3; }
     line-height: 1.88px;
     letter-spacing: 0.03em;
     color: var(--text-contact);
-    /* 400 roboto */
 }
 
 .logo-footer {
