@@ -8,17 +8,27 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: var(--main-text-color)
+  color: var(--main-text-color);
 }
 
 a {
   text-decoration: none;
 }
+
+span {
+  background-color: none;
+}
+
 .logo-header {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: 1.19px;
+  background-color: none;
+}
+
+.logo-header.current {
+  background-color: none;
 }
 
 .logo-header-blue {
@@ -30,7 +40,7 @@ a {
 }
 
 .list-item {
-    list-style: none;
+  list-style: none;
 }
 
 .logo-header-black {
@@ -39,6 +49,7 @@ a {
   font-weight: 700;
   line-height: 1.19px;
   color: var(--main-text-color);
+  background-color: none;
 }
 
 .header-link {
@@ -48,10 +59,12 @@ a {
   line-height: 1.14px;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  background-color: none;
 }
 
-.header-link-current {
-  color:#2196f3;
+.header-link.current {
+  color: #2196f3;
+  background-color: none;
 }
 
 .header-link:hover,
@@ -91,14 +104,12 @@ a {
   text-align: center;
   color: var(--main-text-color);
   cursor: pointer;
-
-
 }
 
 .btn-main:hover,
 :focus {
-color: var(--sub-text-color);
-background-color:#2196f3;
+  color: var(--sub-text-color);
+  background-color: #2196f3;
 }
 
 .title {
@@ -118,7 +129,7 @@ background-color:#2196f3;
 }
 
 .footer {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 .logo-footer-blue {
@@ -141,6 +152,7 @@ background-color:#2196f3;
   font-weight: 400;
   line-height: 1.71px;
   color: var(--sub-text-color);
+  font-style: normal;
 }
 
 .contact-mail-footer,
