@@ -11,6 +11,9 @@ body {
   color: var(--main-text-color)
 }
 
+a {
+  text-decoration: none;
+}
 .logo-header {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -42,10 +45,13 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+}
+
+.header-link-current {
+  color:#2196f3;
 }
 
 .header-link:hover,
@@ -57,7 +63,6 @@ body {
 .contact-number {
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
   color: var(--text-contact);
@@ -86,11 +91,14 @@ body {
   text-align: center;
   color: var(--main-text-color);
   cursor: pointer;
+
+
 }
 
 .btn-main:hover,
 :focus {
-  background-color: #2196f3;
+color: var(--sub-text-color);
+background-color:#2196f3;
 }
 
 .title {
@@ -109,8 +117,8 @@ body {
   color: var(--text-contact);
 }
 
-.logo-footer {
-  background-color: #757575;
+.footer {
+  background-color: #2F303A;
 }
 
 .logo-footer-blue {
@@ -130,10 +138,7 @@ body {
 }
 
 .adress {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71px;
   color: var(--sub-text-color);
 }
@@ -142,8 +147,6 @@ body {
 .contact-number-footer {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71px;
   color: rgba(255, 255, 255, 0.6);
-  background-color: aquamarine;
 }
