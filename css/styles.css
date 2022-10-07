@@ -23,6 +23,7 @@ span {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
+  font-size: 26px;
   line-height: 1.19px;
   background-color: none;
 }
@@ -35,6 +36,7 @@ span {
   font-family: inherit;
   font-style: normal;
   font-weight: 700;
+  font-size: 26px;
   line-height: 1.19px;
   color: #2196f3;
 }
@@ -47,6 +49,7 @@ span {
   font-family: inherit;
   font-style: normal;
   font-weight: 700;
+  font-size: 26px;
   line-height: 1.19px;
   color: var(--main-text-color);
   background-color: none;
@@ -109,6 +112,7 @@ span {
 .btn-main:hover,
 :focus {
   color: var(--sub-text-color);
+  background-color: #2196f3;
 }
 
 .title {
